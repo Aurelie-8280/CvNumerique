@@ -1,0 +1,28 @@
+
+.bgImage {
+    background-image: url('../img/galaxy-5507867_1920.jpg');
+    width:100vw;
+    height:100vh;
+    background-position: center center;
+    overflow: hidden;
+    display:flex;
+}
+
+
+
+.leftDoor,.rightDoor{
+    background-color: #fff;
+    height:100vh;
+    width:50vw;
+    opacity: 70%;
+}
+.leftDoor {
+    left: 0;
+    
+}
+
+.rightDoor {
+    right: 0;
+    -webkit-transform: translateX(100%);
+    transition: all 3s ease-in-out;
+}
