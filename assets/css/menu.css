@@ -1,0 +1,145 @@
+
+
+
+
+/* page apparaît en fondu */
+
+body{
+    animation: fadein 2s; 
+}
+@keyframes fadein {
+ 0% {
+ opacity:0;
+ }
+ 50%{
+ opacity:0.5;
+ }
+ 100% {
+ opacity:1;
+ }
+}
+
+
+/* Image en arrière-plan */
+
+.bgImage{
+    background-image: url('../img/planètes.jpg');
+    display:flex;
+    width:100vw;
+    height:100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover
+    
+}
+
+/* Image de fond liens */
+
+.menu{
+    display:flex;
+    width: 90%;
+    height:90%;
+    position: absolute;
+    opacity: 60%;
+    border-radius: 20px;
+    margin: 30px 30px 40px 30px;
+    object-fit: cover
+}
+
+/* .logo{
+    padding-top:50px;
+    padding-left:50px;
+} */
+
+/* liens */
+
+.bgImage>p{
+    font-size: 20px;
+    color: #FFFDD0;
+    position: absolute;
+    /* display:flex; */
+    
+}
+
+/* lien 1 */
+
+.book{
+    /* display:flex; */
+    /* padding-top:230px; */
+    padding-left:130px;
+    
+    animation: mymove 1s ;
+}
+
+@keyframes mymove {
+  from {top: 150px; }
+  to {top: 500px;}
+}
+
+
+
+/* lien 2 */
+
+.tools{
+    /* display:flex; */
+    /* padding-top:295px; */
+    padding-left:260px;
+    text-align: center;
+    animation: mymove 1s ;
+}
+
+@keyframes mymove {
+  from {top: 100px; }
+  to {top: 200px;}
+}
+
+
+/* lien 3 */
+
+.experiences{
+    /* display:flex; */
+    /* padding-top:195px; */
+    padding-left:410px;
+    text-align: center;
+    animation: mymove 1s ;
+}
+
+@keyframes mymove {
+  from {top: 100px; }
+  to {top: 200px;}
+}
+
+
+/* lien 4 */
+
+.training{
+    /* display:flex; */
+    /* padding-top:310px; */
+    padding-left:590px;
+    text-align: center;
+    animation: mymove 1s ;
+}
+
+@keyframes mymove {
+  from {top: 100px; }
+  to {top: 300px;}
+}
+    
+
+
+/* lien 5 */
+
+.contact{
+    /* display:flex; */
+    
+    padding-left:745px;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+    /* animation-iteration-count:; */
+}
+
+@keyframes slidein{
+  from {top: 100px; }
+  to {top: 200px; }
+}
