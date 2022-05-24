@@ -9,13 +9,13 @@ image.addEventListener('click', function (){
     leftDoor.classList.add('active');
     rightDoor.classList.add('active');
     image.classList.add('active');
-        video.play();
-        video.playbackRate = 5.0;
+    video.play();
+    video.playbackRate = 5.0;
 
-        video.addEventListener('ended', () => {
-            window.open("présentation.html")
-        document.getElementById(compiler).style.display="block";
-        })
+    video.addEventListener('ended', () => {
+        window.location="présentation.html"
+        document.getElementById(compiler).style.display = "block";
+    })
 
 })
 
