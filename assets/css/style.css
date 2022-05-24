@@ -37,7 +37,7 @@ body{
 }  
 
 #image.active{
-    transform: translateY(-50%,-300%);
+    transform: translate(-50%,-300%);
     
     
 }
